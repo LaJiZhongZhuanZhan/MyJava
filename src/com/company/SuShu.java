@@ -1,8 +1,5 @@
 package com.company;
 
-/**
- * Created by Nothing on 2016/10/30.
- */
 public class SuShu {
     public static void main(String[] args) {
         int count = 0;
