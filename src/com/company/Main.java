@@ -1,0 +1,17 @@
+package com.company;
+
+import java.time.Month;
+import java.time.Year;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        Scanner in = new Scanner(System.in);
+        Year year = Year.of(in.nextInt());
+        for (Month m : Month.values()) {
+            System.out.println("你好，世界" + m + " : " + year.atMonth(m).lengthOfMonth());
+        }
+    }
+}
